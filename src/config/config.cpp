@@ -1,15 +1,15 @@
 #include "config.h"
 
 /* ---------------- WiFi / MQTT ---------------- */
-const char* WIFI_SSID     = "PTIT.HCM_CanBo";
-const char* WIFI_PASSWORD = "";
-const char* MQTT_HOST     = "10.252.6.156";
+const char* WIFI_SSID     = "Your_SSID_WiFi";
+const char* WIFI_PASSWORD = "Your_Password_WiFi";
+const char* MQTT_HOST     = "Your_MQTT_Host_IP";
 const int   MQTT_PORT     = 1883;
 const char* TOPIC_CAM_CMD = "cam/cmd";
 const char* TOPIC_DET     = "smartcane/detections";
 
 /* ---------------- HTTP Flask Server ---------------- */
-const char* LOCAL_SERVER_IP        = "10.252.6.156";
+const char* LOCAL_SERVER_IP        = "your.local.server.ip";
 const int   LOCAL_SERVER_PORT      = 8080;
 const char* LOCAL_SERVER_SAVE_PATH = "/save_location";
 const char* DEVICE_ID              = "SmartCane01";
@@ -60,4 +60,4 @@ const unsigned long VIBR_MEASURE_INTERVAL_MS = 120;
 const unsigned long FALL_CALL_COOLDOWN_MS    = 15000UL;
 
 /* ===== Guardian Phone ===== */
-const String GUARDIAN_PHONE_NUMBER = "+84373148007";
+const String GUARDIAN_PHONE_NUMBER = "my_phone_number";
